@@ -1,28 +1,28 @@
-# Instalasi Apache, Wordpress, Nginx, dan Tableau Desktop
+# Laporan Pemrosesan Paralel 
 # Panduan Cara Menginstall Apache, Wordpress, Nginx dan Tableu Desktop dengan Ubuntu Server
 
-Laporan ini memberikan langkah-langkah cara mengistall Apache, Wordpress dan sebagai dalam lingkungan Ubuntu Server Versi 22.04
+Laporan ini memberikan langkah-langkah cara mengistall Apache, Wordpress, Nginx dan Tableau Desktop dalam lingkungan Ubuntu Server Versi 22.04. Semoga Membantu 
 
 # Daftar Isi
- - [Cara Menginstall Apache2 dan Cara Remote Server](#cara-menginstall-apache2-dan-cara-remote-server).
- - [Cara Menginstall Wordpress](#cara-menginstall-wordpress)
- - [Cara Menginstall Nginx](#cara-menginstall-nginx)
- - [Cara Menginstall Tableau Desktop Dari Windows](#cara-menginstall-tableau-desktop-dari-windows)
+ - [Cara Menginstal Apache2 dan Cara Remote Server](#cara-menginstal-apache2-dan-cara-remote-server).
+ - [Cara Menginstal Wordpress](#cara-menginstal-wordpress)
+ - [Cara Menginstal Nginx](#cara-menginstal-nginx)
+ - [Cara Menginstal Tableau Desktop Dari Windows](#cara-menginstal-tableau-desktop-dari-windows)
 
-# Cara Menginstall Apache2 dan Cara Remote Server
+# Cara Menginstal Apache2 dan Cara Remote Server
 ## Proses Instalasi Apache
-Sebelum masuk kelangkah-langkah pastikan sebelum sudah menginstal Ubuntu Server, lalu jalankan
-   1. Sebelum menginstall, update terlebih dahulu sistem Ubuntu Server dengan perintah
+Sebelumnya masuk kelangkah-langkah pastikan Ubuntu Server sudah terinstal didevice anda, lalu jalankan
+   1. Sebelum menginstal, update terlebih dahulu sistem Ubuntu Server dengan perintah
      
       ```
       sudo apt update
       ```
-   2. Selanjutnya, install Apache2 dengan cara memasukkan perintah berikut
+   2. Selanjutnya, instal Apache2 dengan cara memasukkan perintah berikut
      
       ```
       sudo apt install apache2
       ```
-   3. Kemudian lakukan pengecekan apakah apache2 sudah terinstall dengan baik
+   3. Kemudian lakukan pengecekan apakah apache2 sudah terinstal dengan baik
 
       ```
       sudo ufw app list
@@ -40,7 +40,7 @@ Sebelum masuk kelangkah-langkah pastikan sebelum sudah menginstal Ubuntu Server,
 
 
 ## Proses Instalasi OpenSSH dan Remote Server 
-   1. Install OpenSSH di Ubuntu Server menggunakan perintah berikut
+   1. Instal OpenSSH di Ubuntu Server menggunakan perintah berikut
       
       ```
       sudo apt install ssh
@@ -63,11 +63,11 @@ Sebelum masuk kelangkah-langkah pastikan sebelum sudah menginstal Ubuntu Server,
       ```
 
 ## Proses Instalasi Putty dan Remote Server
-   1. Install aplikasi PuTTY diwindows masing-masing. disini kita install PuTTY yang MSI(for windows) yang 64-bit x86, download sampai selesai
-   2. Buka aplikasi PuTTY yang sudah terinstall tadi lalu masukkan ip Ubuntu Server dengan perintah `ifconfig`
-   3. Login kedalam PuTTY menggunakan username dan password yang sudah didaftarkan saat penginstallan Ubuntu Server
+   1. Instal aplikasi PuTTY diwindows anda. disini kita install PuTTY yang MSI (for windows) yang 64-bit x86, download sampai selesai
+   2. Buka aplikasi PuTTY yang sudah terinstall tadi, lalu masukkan ip Ubuntu Server
+   3. Login kedalam PuTTY menggunakan username dan password yang sudah didaftarkan saat penginstalan Ubuntu Server
 
-# Cara Menginstall Wordpress
+# Cara Menginstal Wordpress
 ## Instalasi Tumpukan Lamp
 Tumpukan lamp ialah Linux, Apache, MySQL, PHP. Tools berikut digunakan untuk pendukung wordpress
 ## Proses Instalasi MySQL Server
@@ -76,7 +76,7 @@ Tumpukan lamp ialah Linux, Apache, MySQL, PHP. Tools berikut digunakan untuk pen
       ```
       sudo apt install mysql-server
       ```
-   2. Selanjutnya, install tools keamanan untuk MySQL anda
+   2. Selanjutnya, instal tools keamanan untuk MySQL anda
 
       ```
       sudo mysql_secure_installation
@@ -105,7 +105,7 @@ Setelah instalasi ekstensi PHP, restart Apache dengan perintah berikut `sudo sys
 
 ## Proses Instalasi Wordpress
    1. Sebelum menginstal wordpress, masuklah ke direktori `/var/www/html`
-   2. Install wordpress versi terbaru
+   2. Instal wordpress versi terbaru
 
       ```
       sudo wget -c http://wordpress.org/latest.tar.gz
@@ -154,7 +154,7 @@ Setelah instalasi ekstensi PHP, restart Apache dengan perintah berikut `sudo sys
 
 ## Cara Menginstall Nginx
    1. Langkah pertama perbarui sistem server ubuntu server dengan perintah `sudo apt update`
-   2. Selanjutnya install Nginx dan periksa versi nginx
+   2. Selanjutnya instal Nginx dan periksa versi nginx
 
       ```
       sudo apt install nginx
