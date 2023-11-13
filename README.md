@@ -4,10 +4,10 @@
 Laporan ini memberikan langkah-langkah cara mengistall Apache, Wordpress dan sebagai dalam lingkungan Ubuntu Server Versi 22.04
 
 # Daftar Isi
- - [Cara Menginstall Apache2 dan Cara Remote Server]
- - [Cara Menginstall Wordpress]
- - [Cara Menginstall Nginx]
- - [Cara Menginstall Tableau Desktop Dari Windows]
+ - [Cara Menginstall Apache2 dan Cara Remote Server](#cara-menginstall-apache2-dan-cara-remote-server).
+ - [Cara Menginstall Wordpress](#cara-menginstall-wordpress)
+ - [Cara Menginstall Nginx](#cara-menginstall-nginx)
+ - [Cara Menginstall Tableau Desktop Dari Windows](#cara-menginstall-tableau-desktop-dari-windows)
 
 # Cara Menginstall Apache2 dan Cara Remote Server
 ## Proses Instalasi Apache
@@ -35,6 +35,7 @@ Sebelum masuk kelangkah-langkah pastikan sebelum sudah menginstal Ubuntu Server,
    5. Selanjutnya langkah terakhir pengecekan apache diweb browser apakah apache2 sudah bekerja diubuntu server anda
      
       ![Web Apache2](https://github.com/FakhriNaufal25/Apache-Wordpress-Nginx-Tableau-Desktop/blob/main/Apache%20Web.png)
+      
       Untuk melihat ip address dari ubuntu anda ketikan perintah ini `ifconfig` atau `hostname -I`
 
 
@@ -148,8 +149,8 @@ Setelah instalasi ekstensi PHP, restart Apache dengan perintah berikut `sudo sys
       https://localhost/wordpress/
       ```
       Jika sudah keluar tampilan seperti ini maka intalasi wordpress berhasil
-      ![Wordpress Home]
-
+      
+      ![Wordpress Home](https://github.com/FakhriNaufal25/Apache-Wordpress-Nginx-Tableau-Desktop/blob/main/Wordpress.png)
 
 ## Cara Menginstall Nginx
    1. Langkah pertama perbarui sistem server ubuntu server dengan perintah `sudo apt update`
@@ -175,13 +176,20 @@ Setelah instalasi ekstensi PHP, restart Apache dengan perintah berikut `sudo sys
       ```bash
       https://'ip address anda'/index.nginx-debian.html/
       ```
-      ![Nginx]
+      Jika berhasil memunculkan output seperti ini
+      
+      ![Nginx](https://github.com/FakhriNaufal25/Apache-Wordpress-Nginx-Tableau-Desktop/blob/main/Web%20Nginx.png)
+      
 ## Cara Menginstall Tableau Desktop Dari Windows
-   1. Carilah Tableau dikolom pencarian web browser anda
+   1. Carilah Tableau dikolom pencarian web browser anda `Tableau Desktop`
    2. Lakukan pembuatan akun untuk tableau desktop
-   3. Kemudian, unduh tableau desktop untuk windows
+      
+      ![Creat Account](https://github.com/FakhriNaufal25/Apache-Wordpress-Nginx-Tableau-Desktop/blob/main/Create%20Akun%20Tableau.png)
+      
+   3. Kemudian, unduh tableau desktop untuk windows 
    4. Buka file unduhan dan instal aplikasi seperti biasa
-      ![Tableau]
+ 
+      ![Tableau](https://github.com/FakhriNaufal25/Apache-Wordpress-Nginx-Tableau-Desktop/blob/main/Home%20Tableau.png)
 
 
 
