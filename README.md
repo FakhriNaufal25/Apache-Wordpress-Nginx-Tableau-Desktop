@@ -34,12 +34,12 @@ Kemudian lakukan pengecekan apakah apache2 sudah terinstall dengan baik
 # STEP 4 
 Langkah berikutnya cek status dari Apache2 
 
-    ```bash
+   
     sudo systemctl status apache2
-    ```
+ 
 # STEP 5
 Selanjutnya langkah terakhir pengecekan apache diweb browser apakah apache2 sudah bekerja diubuntu server anda
-![Web Apache2](
+![Web Apache2](https://github.com/FakhriNaufal25/Apache-Wordpress-Nginx-Tableau-Desktop/blob/main/Apache%20Web.png)
  
     
 
