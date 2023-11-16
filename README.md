@@ -152,7 +152,7 @@ Setelah instalasi ekstensi PHP, restart Apache dengan perintah berikut `sudo sys
       
       ![Wordpress Home](https://github.com/FakhriNaufal25/Apache-Wordpress-Nginx-Tableau-Desktop/blob/main/Wordpress.png)
 
-## Cara Menginstall Nginx
+## Cara Menginstal Nginx
    1. Langkah pertama perbarui sistem server ubuntu server dengan perintah `sudo apt update`
    2. Selanjutnya instal Nginx dan periksa versi nginx
 
@@ -180,7 +180,7 @@ Setelah instalasi ekstensi PHP, restart Apache dengan perintah berikut `sudo sys
       
       ![Nginx](https://github.com/FakhriNaufal25/Apache-Wordpress-Nginx-Tableau-Desktop/blob/main/Web%20Nginx.png)
       
-## Cara Menginstall Tableau Desktop Dari Windows
+## Cara Menginstal Tableau Desktop Dari Windows
    1. Carilah Tableau dikolom pencarian web browser anda `Tableau Desktop`
    2. Lakukan pembuatan akun untuk tableau desktop
       
